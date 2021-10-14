@@ -30,8 +30,6 @@ p {
 	height: 16em;
 	overflow: hidden;
 	display: inline-block;
-	margin-top: -3.25em;
-	pointer-events: none;
 }
 
 #banner-image {
@@ -42,35 +40,4 @@ p {
 
 #body-content {
 	padding: 2em 8em 0 8em;
-}
-
-/* NAV BAR STUFF */
-#nav-bar {
-	color: #000;
-	width: 100%;
-	z-index: 2;
-}
-
-#nav-bar ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-#nav-bar li {
-	float: left;
-}
-
-#nav-bar li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 1em;
-	text-decoration: none;
-	background-color: #000;
-	opacity: 99%; /*figure out how to fix that later*/
-}
-
-#nav-bar li a:hover {
-	background-color: #a32638;
 }
