@@ -23,6 +23,7 @@ h2 {
 
 p {
 	margin: 0.5em 0;
+	line-height: 150%;
 }
 
 #home-banner {
@@ -42,6 +43,10 @@ p {
 
 #body-content {
 	padding: 2em 8em 0 8em;
+}
+
+#body-content p {
+	text-indent: 3em;
 }
 
 /* NAV BAR STUFF */
