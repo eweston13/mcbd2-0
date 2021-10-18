@@ -80,6 +80,10 @@ p {
 	border-radius: 0 0 0.5em 0;
 }
 
+#current-page a {
+	background-color: #a32638;
+}
+
 .nav-link a:hover {
 	background-color: #a32638;
 	transition: background-color 0.5s;
