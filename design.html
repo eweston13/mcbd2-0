@@ -19,12 +19,212 @@
 </div>
 <div id="body-content">
 	<h1>Our Design</h1>
+	
+	<!-- ADD 3D VIEWER EMBED HERE WHEN THERE IS SOMETHING 3D TO VIEW -->
+	
 	<h2 class="section-header">Subsystems</h2>
 	<p>At the start of our design process, the team broke down the MCBD into three components: the outer spherical wheel, the driving yoke, and an internal structure to maintain magnetic coupling between the wheel and the yoke. We then generated several subsystems concepts and produced design concepts from various combinations of the subsystem concepts.</p>
 	<!--ADD PICTURES AND CONCEPT COMBINATION TABLE-->
+	<table>
+	<caption>Concept Combination Table</caption>
+	<tr>
+		<th>Drive System</th>
+		<th>Spherical Wheel</th>
+		<th>Internal Structure</th>
+	</tr>
+	<tr>
+		<td>Omni-wheels</td>
+		<td>Banded wheel</td>
+		<td>Fully spherical</td>
+	</tr>
+	<tr>
+		<td>Magnetic omni-wheels</td>
+		<td>Rigid wheel with outer tire</td>
+		<td>Top hemisphere</td>
+	</tr>
+	<tr>
+		<td>Omni-chains</td>
+		<td>Flexible sphere</td>
+		<td>Bottom hemisphere</td>
+	</tr>
+	<tr>
+		<td>Magnetic omni-chains</td>
+		<td>Paneled sphere</td>
+		<td>Top/bottom hybrid</td>
+	</tr>
+	<tr>
+		<td>Induction sphere</td>
+		<td>Inflatable sphere</td>
+		<td>Top 3/4 sphere</td>
+	</tr>
+	<tr>
+		<td>Internal omni-wheels</td>
+		<td>Threaded hemispheres</td>
+		<td>Foldable top/bottom hybrid</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Press-fit hemispheres</td>
+		<td>Bottom weighted</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>Locking hemispheres</td>
+		<td>Left/right hybrid</td>
+	</tr>
+	</table>
+	
 	<h2 class="section-header">Selection Process</h2>
+	<p>After we generated our concepts, we screened all of them against last year's final design based on the metrics we created earlier. Then, we determined weighted scores for each of the top 3 design concepts to select our final design concept.</p>
+	
+	<table>
+	<caption>Scoring Matrix</caption>
+	<tr>
+		<th>Selection Criteria</th>
+		<th>Weight</th>
+		<th>Twist & Lock</th>
+		<th>Bottom Omni-wheels</th>
+		<th>Induced Omni-wheels</th>
+	</tr>
+	<tr>
+		<td>Yoke diameter</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">3</td>
+	</tr>
+	<tr>
+		<td>Spherical wheel diameter</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+	</tr>
+	<tr>
+		<td>Load carrying capacity</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">3</td>
+	</tr>
+	<tr>
+		<td>Magnetic coupling force</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">5</td>
+	</tr>
+	<tr>
+		<td>Distance from center of gravity to floor</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">2</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">4</td>
+	</tr>
+	<tr>
+		<td>Assembly/disassembly time</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+	</tr>
+	<tr>
+		<td>Overall weight</td>
+		<td style="text-align: center;">1</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">2</td>
+	</tr>
+	<tr>
+		<td>Rotational inertia of spherical wheel</td>
+		<td style="text-align: center;">2</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">2</td>
+	</tr>
+	<tr>
+		<td>Maximum actuation speed</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">3</td>
+	</tr>
+	<tr>
+		<td>Magnetic field strength outside ball drive</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">5</td>
+	</tr>
+	<tr>
+		<td>Time between maintenance</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">5</td>
+	</tr>
+	<tr>
+		<td>Power efficiency</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">2</td>
+	</tr>
+	<tr>
+		<td>Maximum traversable incline</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">3</td>
+	</tr>
+	<tr>
+		<td>Maximum traversable obstacle height</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">2</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">4</td>
+	</tr>
+	<tr>
+		<td>Maximum actuation acceleration</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">2</td>
+	</tr>
+	<tr>
+		<td>Cost</td>
+		<td style="text-align: center;">2</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">4</td>
+	</tr>
+	<tr>
+		<td>Number of major components</td>
+		<td style="text-align: center;">1</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">4</td>
+		<td style="text-align: center;">5</td>
+	</tr>
+	<tr>
+		<td>Coefficient of friction with floor</td>
+		<td style="text-align: center;">3</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+		<td style="text-align: center;">5</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: right;">Weighted Scores</td>
+		<td style="text-align: center;">227</td>
+		<td style="text-align: center;">235</td>
+		<td style="text-align: center;">241</td>
+	</tr>
+	</table>
+	
 	<h2 class="section-header">Final Design & Technical Analysis</h2>
 	<h2 class="section-header">Project Budget</h2>
+	<!-- I'LL MAKE THIS PRETTIER LATER I SWEAR, RIGHT NOW IT'S BEING... DIFFICULT -->
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGm5n32g1YICl2EzPXpiadH-0DkzIVrsoazr9EeJ4v_oPGY6_Q1iBg9bmzeOqu2yigQfXhMNIrTN7U/pubhtml?widget=true&amp;headers=false" style="width: 100%; height: 790px;" id="bom"></iframe>
 </div>
+  
 </body>
 </html>

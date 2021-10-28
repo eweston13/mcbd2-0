@@ -49,6 +49,38 @@ p {
 	text-indent: 3em;
 }
 
+/* TABLE STYLES */
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	border-radius: 0.25em;
+}
+
+tr:nth-child(even) {
+  background-color: #EEEEEE;
+}
+
+
+th, td {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+th:not(:first-child), td:not(:first-child) {
+	border-left: 1px solid black;
+	border-collapse: collapse;
+}
+
+caption {
+	font-style: italic;
+	font-size: 1.125em;
+	padding-bottom: 0.25em;
+}
+
 /* NAV BAR STUFF */
 #nav-bar {
 	color: #000;
