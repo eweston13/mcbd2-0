@@ -49,6 +49,21 @@ p {
 	text-indent: 3em;
 }
 
+.team-pics {
+	height: 18em;
+	max-height: 320px;
+}
+
+figure {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+figcaption {
+	text-align: center;
+}
+
 /* TABLE STYLES */
 
 table {
