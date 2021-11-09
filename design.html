@@ -222,8 +222,14 @@
 	
 	<h2 class="section-header">Final Design & Technical Analysis</h2>
 	<img src="design-pics/design_11-02.jpeg" style="width: 50%; display: block; margin: 0 auto;"alt="Current ball drive design"/>
-	<p>Our final design eliminated the need for an internal structure by adding ferritic rods to the spherical wheel itself. We determined that for our intended use, each ball module would only need to actuate in one direction, as we expect them to be implemented in groups of three or four. Holonomic motion and rotational motion can be achieved by installing multiple modules as shown below.</p>
+	<h3>Actuator Configuration</h3>
+	<p>Our final design eliminated the need for an internal structure by adding ferritic rods to the spherical wheel itself. We determined that for our intended use, each ball module would only need to actuate in one direction, as we expect them to be implemented in groups of three or four. Holonomic motion and rotational motion can be achieved by installing multiple modules as shown below. However, each module will have two omni-chains, to help center the spherical wheel within the yoke and allow for more consistent control.</p>
 	<img src="design-process-pics/holonomic-drive.png" alt="example holonomic drive" style="width: 50%; display: block; margin: 0 auto;"/>
+	<h3>Spherical Wheel Design</h3>
+	<p>The final spherical wheel design is two thick-walled, bolt-filled, polypropylene copolymer hemispheres that will screw together. The hemispheres will be 1-inch thick, as determined by a static load analysis performed in Solidworks. The material was chosen for its cheap cost, low density, and relatively high tensile strength. The bolts threaded through the wheel will act as coupling components with the yoke. An outer coating of nitrile rubber will be applied to the outer surface of the wheel after assembly to increase the ball drive's traction on the ground. The coating will add relatively little mass to the wheel, and we expect it to be easy to obtain.</p>
+	<h3>Magnet Arrays</h3>
+	<p>After conducting a magnetic field calculation, the team determined that mounting disc magnets to the omni-chains would be insufficient to maintain coupling within the ball drive. The team plans to add additional magnets to the inside of the yoke in the formation of a Halbach array.</p>
+	
 	<h2 class="section-header">Project Budget</h2>
 	<!-- I'LL MAKE THIS PRETTIER LATER I SWEAR, RIGHT NOW IT'S BEING... DIFFICULT -->
 	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGm5n32g1YICl2EzPXpiadH-0DkzIVrsoazr9EeJ4v_oPGY6_Q1iBg9bmzeOqu2yigQfXhMNIrTN7U/pubhtml?widget=true&amp;headers=false" style="width: 100%; height: 790px;" id="bom"></iframe>

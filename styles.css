@@ -16,6 +16,12 @@ h2 {
 	margin: 0;
 }
 
+h3 {
+	font-weight: normal;
+	color: #666;
+	margin-bottom: 0.25em;
+}
+
 .section-header {
 	color: #a32638;
 	margin: 1em 0 0 0;
