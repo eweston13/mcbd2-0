@@ -55,7 +55,17 @@ p {
 	text-indent: 3em;
 }
 
+.team-pics-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 1em;
+}
+
 .team-pics {
+	display: inline-block;
+	margin: auto 0;
 	height: 18em;
 	max-height: 320px;
 }
