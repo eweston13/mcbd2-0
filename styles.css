@@ -155,3 +155,24 @@ caption {
 .nav-link a:active {
 	background-color: #a32638;
 }
+
+#page-nav {
+	list-style-type: none;
+	padding: 1em;
+	background-color: #efefef;
+	border-radius: 0.5em;
+	max-width: 20em;
+}
+
+#page-nav li {
+	padding: 0.5em;
+}
+
+#page-nav li a {
+	color: #666;
+	text-decoration: none;
+}
+
+#page-nav li a:hover {
+	text-decoration: underline;
+}
