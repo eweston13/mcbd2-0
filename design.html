@@ -11,6 +11,7 @@
 	<ul>
 	<li class="nav-link"><a href="index.html">Home</a></li>
 	<li class="nav-link" id="current-page"><a href="design.html">Our Design</a></li>
+	<li class="nav-link"><a href="manufacturing-plan.html">Manufacturing Plan</a></li>
 	<li class="nav-link"><a href="progress.html" id="last">Project Updates</a></li>
 	</ul>
 </div>
@@ -19,6 +20,8 @@
 </div>
 <div id="body-content">
 	<h1>Our Design</h1>
+	
+	<!-- D1 goes here -->
 	
 	<ul id="page-nav">
 	<li><a href="#subsystems">Subsystems</a></li>
@@ -227,7 +230,7 @@
 	</table>
 	
 	<h2 class="section-header" id="final_design">Final Design & Technical Analysis</h2>
-	<img src="design-pics/design_12-09.png" style="width: 50%; display: block; margin: 0 auto;" alt="Current ball drive design"/>
+	<img src="design-pics/design_03-27.jpg" style="width: 40%; display: block; margin: 0 auto;" alt="Current ball drive design"/>
 	<h3>Actuator Configuration</h3>
 	<p>Our final design eliminated the need for an internal structure by adding ferritic rods to the spherical wheel itself. We determined that for our intended use, each ball module would only need to actuate in one direction, as we expect them to be implemented in groups of three or four. Holonomic motion and rotational motion can be achieved by installing multiple modules as shown below. However, each module will have two omni-chains, to help center the spherical wheel within the yoke and allow for more consistent control.</p>
 	<img src="design-process-pics/holonomic-drive.png" alt="example holonomic drive" style="width: 50%; display: block; margin: 0 auto;"/>
@@ -236,7 +239,8 @@
 	<p>The final spherical wheel design is two thick-walled, bolt-filled, polypropylene copolymer hemispheres that will screw together. The hemispheres will be 1-inch thick, as determined by a static load analysis performed in Solidworks. The material was chosen for its cheap cost, low density, and relatively high tensile strength. The bolts threaded through the wheel will act as coupling components with the yoke. An outer coating of nitrile rubber will be applied to the outer surface of the wheel after assembly to increase the ball drive's traction on the ground. The coating will add relatively little mass to the wheel, and we expect it to be easy to obtain.</p>
 	
 	<h3>Magnet Arrays</h3>
-	<p>After conducting a magnetic field calculation, the team determined that mounting disc magnets to the omni-chains would be insufficient to maintain coupling within the ball drive. To compensate for this, the team has added additional magnets to the inside of the yoke in the formation of a Halbach array.</p>
+	<p>After conducting a magnetic field calculation, the team determined that mounting disc magnets to the omni-chains would be insufficient to maintain coupling within the ball drive. To compensate for this, the team has added additional magnets along the perimeter and top of the yoke. The top snap-fit enclosures for the magnets are a simple array that will allow the team to rearrange magnets freely without needing to refabricate the yoke.</p>
+	<!-- Replace this with D3 -->
 	<img src="design-pics/halbach_12-09.png" style="width: 50%; display: block; margin: 0 auto;" alt="inside of yoke"/>
 	
 	<h3>Omni-Chain Links</h3>
@@ -244,7 +248,6 @@
 	<img src="design-pics/omnilink_12-09.png" style="width: 50%; display: block; margin: 0 auto;" alt="new omni link" />
 	
 	<h2 class="section-header" id="budget">Project Budget</h2>
-	<!-- I'LL MAKE THIS PRETTIER LATER I SWEAR, RIGHT NOW IT'S BEING... DIFFICULT -->
 	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGm5n32g1YICl2EzPXpiadH-0DkzIVrsoazr9EeJ4v_oPGY6_Q1iBg9bmzeOqu2yigQfXhMNIrTN7U/pubhtml?gid=1326898228&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%; height: 790px;" id="bom"></iframe>
 </div>
   
